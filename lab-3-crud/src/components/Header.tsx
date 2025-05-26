@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = ({ firstname }) => (
@@ -9,4 +10,4 @@ const Header = ({ firstname }) => (
     </header>
 )
 
-export default Header;
+export default memo(Header);
